@@ -752,7 +752,7 @@
             }     
             .corner-box {
                 position: relative;
-                background: #0e2431;
+                background: rgb(87 98 0 / 10%);
                 padding: 18px;
                 &.active,
                 &:hover {
@@ -768,7 +768,7 @@
                     width: 0;
                 }
                 &::before,&::after {
-                    background: #0e2431;
+                    background: rgb(87 98 0 / 10%);
                 }
             }
  
@@ -790,10 +790,10 @@
             }
             &.style {
                 .corner-box {
-                    background: #13182b;
+                    background: #2e2e2e;
                     &::before,
                     &::after {
-                        background: #13182b;
+                        background: #2e2e2e;
                     }
                 }
                 &::after,
@@ -922,10 +922,10 @@
                     background: $color-main2;
                 }
                 .corner-box {
-                    background: #13182b;
+                    background: #2e2e2e;
                     &::after,
                     &::before {
-                        background: #13182b;
+                        background: #2e2e2e;
                     }
                     &::before {
                         height: calc(100% + 0px);

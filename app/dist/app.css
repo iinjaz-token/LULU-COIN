@@ -247,9 +247,10 @@
   position: absolute;
   transition: all 0.2s linear;
   background: #f8f5f2;
+  border-radius: 10px;
 }
 .tf-button:hover {
-  color: #f8f5f2;
+  color: #212121;
 }
 .tf-button:hover::before,
 .tf-button:hover::after {
@@ -349,7 +350,7 @@
   background: #f8f5f2;
 }
 .tf-button-st2:hover {
-  color: #f8f5f2;
+  color: #212121;
   background: transparent;
 }
 .tf-button-st2:hover::before,
@@ -1157,7 +1158,7 @@
 }
 .roadmap .box .rm-box .corner-box {
   position: relative;
-  background: #0e2431;
+  background: rgb(87 98 0 / 10%);
   padding: 18px;
 }
 .roadmap .box .rm-box .corner-box.active,
@@ -1174,7 +1175,7 @@
 }
 .roadmap .box .rm-box .corner-box::before,
 .roadmap .box .rm-box .corner-box::after {
-  background: #0e2431;
+  background: rgb(87 98 0 / 10%);
 }
 .roadmap .box .rm-box ul li {
   padding-left: 26px;
@@ -1191,11 +1192,11 @@
   background: #f8f5f2;
 }
 .roadmap .box .rm-box.style .corner-box {
-  background: #13182b;
+  background: #2e2e2e;
 }
 .roadmap .box .rm-box.style .corner-box::before,
 .roadmap .box .rm-box.style .corner-box::after {
-  background: #13182b;
+  background: #2e2e2e;
 }
 .roadmap .box .rm-box.style::after,
 .roadmap .box .rm-box.style::before {
@@ -1318,11 +1319,11 @@
   background: #565660;
 }
 .roadmap.style2 .box.style .corner-box {
-  background: #13182b;
+  background: #2e2e2e;
 }
 .roadmap.style2 .box.style .corner-box::after,
 .roadmap.style2 .box.style .corner-box::before {
-  background: #13182b;
+  background: #2e2e2e;
 }
 .roadmap.style2 .box.style .corner-box::before {
   height: calc(100% + 0px);
@@ -1577,6 +1578,7 @@
 .gallery .button-fx .btn-prev-team.tf-button .boder-fade,
 .gallery .button-fx .btn-next-team.tf-button .boder-fade {
   border: 1px solid #d4af37;
+  border-radius: 10px;
 }
 .gallery .button-fx .btn-prev-team.tf-button .effect::before,
 .gallery .button-fx .btn-prev-team.tf-button .effect::after,
@@ -1584,6 +1586,7 @@
 .gallery .button-fx .btn-next-team.tf-button .effect::after {
   width: 1px;
   background: #d4af37;
+  border-radius: 10px;
 }
 .gallery .button-fx .btn-prev-team.tf-button::before,
 .gallery .button-fx .btn-prev-team.tf-button::after,
@@ -1591,6 +1594,7 @@
 .gallery .button-fx .btn-next-team.tf-button::after {
   height: 1px;
   background: #d4af37;
+  border-radius: 10px;
 }
 .gallery .button-fx .btn-prev-team i,
 .gallery .button-fx .btn-next-team i {
@@ -2813,7 +2817,7 @@
 .mobile-button:before,
 .mobile-button:after,
 .mobile-button span {
-  background-color: #f8f5f2;
+  background-color: #212121;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   transition: all ease 0.3s;
@@ -5185,7 +5189,7 @@
   .box.style
   .rm-box
   .corner-box {
-  background: #13182b;
+  background: #2e2e2e;
 }
 .pg-roadmap2
   .tf-section.tf-roadmap
@@ -5199,7 +5203,7 @@
   .box.style
   .rm-box
   .corner-box::before {
-  background: #13182b;
+  background: #2e2e2e;
 }
 
 .tf-item .widget.widget-search {
