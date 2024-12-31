@@ -3150,10 +3150,10 @@
 }
 
 #footer .footer-main {
-  padding: 88px 0 80px;
+  /* padding: 88px 0 80px; */
   text-align: center;
   position: relative;
-  background: #2e2e2e;
+  /* background: #2e2e2e; */
 }
 #footer .footer-main .bg1,
 #footer .footer-main .bg2 {
@@ -3200,7 +3200,7 @@
 }
 #footer .footer-bottom .wrap-fx .Copyright p {
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.57;
   text-transform: capitalize;
 }
@@ -3211,7 +3211,7 @@
   margin-left: 24px;
 }
 #footer .footer-bottom .wrap-fx .list li a {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.57;
 }
 
