@@ -237,16 +237,14 @@
   height: 0;
   position: absolute;
   transition: all 0.2s linear;
-  background: #f8f5f2;
 }
 .tf-button::before,
 .tf-button::after {
   content: "";
   width: 0;
-  height: 2px;
   position: absolute;
   transition: all 0.2s linear;
-  background: #f8f5f2;
+  background: #d4af37;
   border-radius: 10px;
 }
 .tf-button:hover {
@@ -347,7 +345,7 @@
   height: 2px;
   position: absolute;
   transition: all 0.2s linear;
-  background: #f8f5f2;
+  background: #d4af37;
 }
 .tf-button-st2:hover {
   color: #212121;
