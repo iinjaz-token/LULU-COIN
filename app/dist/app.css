@@ -2396,6 +2396,7 @@
   padding: 0;
   line-height: 20px;
   border: 1px solid #d4af37;
+  border-radius: 90px;
 }
 .button-fx .btn-prev-team.active,
 .button-fx .btn-prev-team:hover,
