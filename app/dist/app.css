@@ -2728,7 +2728,9 @@
   position: absolute;
   top: 100%;
   overflow-y: auto;
-  background: #f8f5f2;
+  background: rgba(207, 207, 207, 0);
+  -webkit-backdrop-filter: blur(27.1828px);
+  backdrop-filter: blur(27.1828px);
   max-height: 60vh;
 }
 #main-nav-mobi ul {
@@ -2741,7 +2743,7 @@
   margin: 0;
   cursor: pointer;
   padding: 0;
-  border-top: 1px solid rgba(2, 14, 40, 0.2);
+  /* border-top: 1px solid rgb(212 175 54); */
   position: relative;
 }
 #main-nav-mobi ul li > ul > li:first-child {
@@ -2755,8 +2757,9 @@
   transition: all 0.3s ease;
   display: inline-block;
   padding: 12px 20px;
-  color: #212121;
+  color: #f8f5f2;
   position: relative;
+  font-size: 25px;
 }
 #main-nav-mobi .sub-menu li a {
   padding-left: 40px;
@@ -2803,7 +2806,7 @@
   transition: all 0.3s ease;
   display: none;
   position: absolute;
-  width: 26px;
+  width: 36px;
   height: 26px;
   top: 50%;
   right: 15px;
@@ -6511,7 +6514,7 @@ img.mfp-img {
 
   .header #site-header-inner .tf-button {
     padding: 10px 10px;
-    margin-right: 35px;
+    margin-right: 75px;
     font-size: 14px;
   }
 
@@ -6909,7 +6912,7 @@ img.mfp-img {
 
   .header #site-header-inner .tf-button {
     padding: 10px;
-    margin-right: 34px;
+    margin-right: 75px;
     font-size: 14px;
   }
 }
